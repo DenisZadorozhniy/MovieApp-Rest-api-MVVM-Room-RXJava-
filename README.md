@@ -11,3 +11,8 @@ The application receives information from the site [https://www.episodate.com/](
   ![watchlist add](7.jpg)
 4. The user can use the search in the application to find his favorite movie:
   ![search](3.jpg)
+5. This is what the watchlist looks like with the user's added films: 
+  ![watchlist](4.jpg) 
+6. He can also remove a movie from his list by clicking on the delete icon:  
+  ![remove movie](5.jpg)
+  ![result](6.jpg)
