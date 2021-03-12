@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/watchList_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/second_color"
+    tools:context=".WatchListActivity">
+    <Toolbar
+        android:id="@+id/toolbar_watchList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/main_color"
+        app:titleTextColor="@color/colorTextIcons"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/back_img_watchList"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_arrow_back"
+            app:tint="@color/colorTextIcons"/>
+        <TextView
+            android:id="@+id/title_watcList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_bold"
+            android:text="@string/watchlist"
+            android:textColor="@color/colorTextIcons"
+            android:textSize="23dp"
+            android:layout_marginLeft="20dp"/>
+    </Toolbar>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/watchListRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar_watchList"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+</RelativeLayout>

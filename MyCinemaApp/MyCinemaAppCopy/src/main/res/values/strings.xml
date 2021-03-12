@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyCinemaApp</string>
+    <string name="titleApp">TV shows | Most Popular</string>
+    <string name="what_will_we_watch_today">What will we watch today?</string>
+    <string name="title_film">Title movie</string>
+    <string name="network">network</string>
+    <string name="text_started">text started</string>
+    <string name="text_status">text status</string>
+    <string name="text_country">text_country</string>
+    <string name="description">Description some text about Description some text about Description some text about
+    Description some text about Description some text about Description some text about Description some text about
+        Description some text about Description some text about Description some text about Description some text about
+         t
+    </string>
+    <string name="rating">7.7</string>
+    <string name="episodes">Episodes</string>
+    <string name="title_episode">S01E22</string>
+    <string name="title_series">Title Series</string>
+    <string name="watchlist">WatchList</string>
+
+</resources>

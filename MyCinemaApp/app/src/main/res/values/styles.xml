@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BlackTheme" parent="@style/Theme.MyCinemaApp">
+
+    </style>
+
+    <style name="LightTheme" parent="@style/Theme.LightMyCinemaApp">
+
+    </style>
+</resources>

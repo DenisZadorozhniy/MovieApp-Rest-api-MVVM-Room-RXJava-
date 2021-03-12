@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/second_color"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/pb_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        />
+
+ <Toolbar
+     android:id="@+id/layout_header"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:padding="12dp"
+     android:background="@color/main_color"
+     app:titleTextColor="@color/colorTextIcons"
+     >
+     <TextView
+         android:id="@+id/title_app"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:fontFamily="@font/ubuntu_bold"
+         android:text="@string/titleApp"
+         android:textColor="@color/colorTextIcons"
+         android:textSize="18dp"
+
+         />
+    <ImageView
+        android:id="@+id/icon_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_search_24"
+        app:tint="@color/colorTextIcons"
+        app:defaultQueryHint="What are we going to watch?"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+     <ImageView
+         android:id="@+id/watchList"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_look_list"
+         android:layout_gravity="right"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         app:tint="@color/colorTextIcons"
+         />
+
+</Toolbar>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/tvShowsRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/layout_header"
+    android:orientation="vertical"
+    android:padding="4dp"
+  />
+
+
+</RelativeLayout>
