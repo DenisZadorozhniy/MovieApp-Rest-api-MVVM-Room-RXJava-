@@ -7,3 +7,5 @@ The application receives information from the site [https://www.episodate.com/](
   ![main activity](1.jpg)
 2. Detailed information about the film:
   ![detailed](2.jpg)
+3. The user can use the search in the application to find his favorite movie:
+  ![search](3.jpg)
